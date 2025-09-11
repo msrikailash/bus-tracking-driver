@@ -1,0 +1,27 @@
+{
+  "name": "bus-tracker-qr-generator",
+  "version": "1.0.0",
+  "description": "QR code generator for bus assignment testing",
+  "main": "generate-bus-qr.js",
+  "scripts": {
+    "generate": "node generate-bus-qr.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  },
+  "keywords": [
+    "qr-code",
+    "bus-tracker",
+    "android",
+    "testing"
+  ],
+  "author": "Bus Tracker Manager",
+  "license": "MIT"
+}
+
+
+
+
+
+
+

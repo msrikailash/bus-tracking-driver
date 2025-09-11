@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard" />
+
+        <item
+            android:id="@+id/nav_route_map"
+            android:icon="@drawable/ic_route"
+            android:title="@string/view_route" />
+
+        <item
+            android:id="@+id/nav_stops_management"
+            android:icon="@drawable/ic_location_on"
+            android:title="@string/manage_stops" />
+
+        <item
+            android:id="@+id/nav_trip_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/trip_history" />
+
+        <item
+            android:id="@+id/nav_leave_application"
+            android:icon="@drawable/ic_calendar_today"
+            android:title="@string/leave_application" />
+
+        <item
+            android:id="@+id/nav_qr_scanner"
+            android:icon="@drawable/ic_qr_code"
+            android:title="@string/scan_qr_code" />
+
+        <item
+            android:id="@+id/nav_map_selection"
+            android:icon="@drawable/ic_map"
+            android:title="@string/select_location" />
+
+    </group>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+
+            <item
+                android:id="@+id/nav_notifications"
+                android:icon="@drawable/ic_notifications"
+                android:title="@string/notifications" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="@string/help" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+    <item android:title="@string/account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_person"
+                android:title="@string/profile" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

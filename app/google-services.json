@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "744197330204",
+    "firebase_url": "https://classroom-90c00-default-rtdb.firebaseio.com",
+    "project_id": "classroom-90c00",
+    "storage_bucket": "classroom-90c00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744197330204:android:b497010d274b9a17a4d6d9",
+        "android_client_info": {
+          "package_name": "com.example.bus_traker_client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744197330204-q9bg2frif9vrlt0e1giqsqita617st58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-9yz_aGnWJPdzy9C6bpZtFuvMvd7SqA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744197330204-q9bg2frif9vrlt0e1giqsqita617st58.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "744197330204-ibp7gts8stb42p3sv1mcdra2gm6u72pn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mvp.CLASSROOM"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744197330204:android:541a1d3bbbfc1b0ca4d6d9",
+        "android_client_info": {
+          "package_name": "com.example.bus_traker_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744197330204-q9bg2frif9vrlt0e1giqsqita617st58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-9yz_aGnWJPdzy9C6bpZtFuvMvd7SqA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744197330204-q9bg2frif9vrlt0e1giqsqita617st58.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "744197330204-ibp7gts8stb42p3sv1mcdra2gm6u72pn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mvp.CLASSROOM"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744197330204:android:3523f6f349c281c1a4d6d9",
+        "android_client_info": {
+          "package_name": "com.example.supervisior"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744197330204-q9bg2frif9vrlt0e1giqsqita617st58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-9yz_aGnWJPdzy9C6bpZtFuvMvd7SqA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744197330204-q9bg2frif9vrlt0e1giqsqita617st58.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "744197330204-ibp7gts8stb42p3sv1mcdra2gm6u72pn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mvp.CLASSROOM"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

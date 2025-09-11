@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Appearance Category -->
+    <PreferenceCategory
+        android:title="@string/appearance"
+        android:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="theme"
+            android:title="@string/theme"
+            android:summary="@string/theme_summary"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="system"
+            android:icon="@drawable/ic_palette" />
+
+    </PreferenceCategory>
+
+    <!-- Location Category -->
+    <PreferenceCategory
+        android:title="@string/location_settings"
+        android:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="location_frequency"
+            android:title="@string/location_update_frequency"
+            android:summary="@string/location_frequency_summary"
+            android:entries="@array/location_frequency_entries"
+            android:entryValues="@array/location_frequency_values"
+            android:defaultValue="5"
+            android:icon="@drawable/ic_location" />
+
+        <SwitchPreferenceCompat
+            android:key="battery_optimization"
+            android:title="@string/battery_optimization"
+            android:summary="@string/battery_optimization_summary"
+            android:defaultValue="true"
+            android:icon="@drawable/ic_battery" />
+
+    </PreferenceCategory>
+
+    <!-- Notifications Category -->
+    <PreferenceCategory
+        android:title="@string/notifications"
+        android:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="notifications_enabled"
+            android:title="@string/enable_notifications"
+            android:summary="@string/notifications_summary"
+            android:defaultValue="true"
+            android:icon="@drawable/ic_notifications" />
+
+        <SwitchPreferenceCompat
+            android:key="sound_enabled"
+            android:title="@string/notification_sound"
+            android:summary="@string/notification_sound_summary"
+            android:defaultValue="true"
+            android:dependency="notifications_enabled"
+            android:icon="@drawable/ic_volume" />
+
+        <SwitchPreferenceCompat
+            android:key="vibration_enabled"
+            android:title="@string/notification_vibration"
+            android:summary="@string/notification_vibration_summary"
+            android:defaultValue="true"
+            android:dependency="notifications_enabled"
+            android:icon="@drawable/ic_vibration" />
+
+    </PreferenceCategory>
+
+    <!-- Data Category -->
+    <PreferenceCategory
+        android:title="@string/data_management"
+        android:iconSpaceReserved="false">
+
+        <Preference
+            android:key="clear_cache"
+            android:title="@string/clear_cache"
+            android:summary="@string/clear_cache_summary"
+            android:icon="@drawable/ic_delete" />
+
+        <Preference
+            android:key="export_data"
+            android:title="@string/export_data"
+            android:summary="@string/export_data_summary"
+            android:icon="@drawable/ic_download" />
+
+    </PreferenceCategory>
+
+    <!-- Account Category -->
+    <PreferenceCategory
+        android:title="@string/account"
+        android:iconSpaceReserved="false">
+
+        <Preference
+            android:key="change_password"
+            android:title="@string/change_password"
+            android:summary="@string/change_password_summary"
+            android:icon="@drawable/ic_lock" />
+
+        <Preference
+            android:key="logout"
+            android:title="@string/logout"
+            android:summary="@string/logout_summary"
+            android:icon="@drawable/ic_logout" />
+
+    </PreferenceCategory>
+
+    <!-- About Category -->
+    <PreferenceCategory
+        android:title="@string/about"
+        android:iconSpaceReserved="false">
+
+        <Preference
+            android:key="about"
+            android:title="@string/about_app"
+            android:summary="@string/about_summary"
+            android:icon="@drawable/ic_info" />
+
+        <Preference
+            android:key="privacy_policy"
+            android:title="@string/privacy_policy"
+            android:summary="@string/privacy_policy_summary"
+            android:icon="@drawable/ic_privacy" />
+
+        <Preference
+            android:key="terms_of_service"
+            android:title="@string/terms_of_service"
+            android:summary="@string/terms_summary"
+            android:icon="@drawable/ic_document" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
+
+
+
+
+
+

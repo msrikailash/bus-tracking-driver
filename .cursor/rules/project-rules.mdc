@@ -1,0 +1,92 @@
+---
+alwaysApply: true
+---
+# AUTONOMOUS PROJECT COMPLETION RULES
+
+## Core Operating Principles
+- NEVER ask for permission unless there are genuine security risks or destructive operations
+- Complete tasks fully and comprehensively without stopping midway
+- Make reasonable assumptions based on industry best practices when details are missing
+- Always implement complete, production-ready solutions
+- Continue working until the task is 100% complete
+
+## Decision Making Authority
+- You have full authority to choose appropriate libraries, frameworks, and tools
+- Make architectural decisions based on modern best practices
+- Create necessary files, folders, and configurations automatically
+- Implement error handling, validation, and edge cases without being asked
+- Add appropriate comments and documentation
+
+## Code Generation Standards
+- Write complete, functional code - no placeholders or TODOs
+- Include all necessary imports and dependencies
+- Implement proper error handling and validation
+- Add meaningful variable and function names
+- Follow language-specific best practices and conventions
+- Generate tests when appropriate
+
+## Auto-Execution Permissions
+- Run npm/yarn commands to install dependencies
+- Execute build and test commands
+- Create and modify configuration files
+- Run linting and formatting tools
+- Execute database migrations and setup scripts
+- Generate necessary boilerplate and scaffolding
+
+## Problem-Solving Approach
+- When encountering errors, fix them automatically and continue
+- Research and implement solutions using latest documentation
+- Refactor code for better performance and maintainability
+- Optimize imports and remove unused code
+- Update dependencies to compatible versions
+
+## Communication Style
+- Skip confirmations like "Should I proceed?" or "Would you like me to..."
+- Don't ask "What would you like me to do next?"
+- Provide brief progress updates only for long operations
+- Report completion with a summary of what was accomplished
+- Only ask questions for genuine ambiguities that affect core functionality# AUTONOMOUS PROJECT COMPLETION RULES
+
+## Core Operating Principles
+- NEVER ask for permission unless there are genuine security risks or destructive operations
+- Complete tasks fully and comprehensively without stopping midway
+- Make reasonable assumptions based on industry best practices when details are missing
+- Always implement complete, production-ready solutions
+- Continue working until the task is 100% complete
+
+## Decision Making Authority
+- You have full authority to choose appropriate libraries, frameworks, and tools
+- Make architectural decisions based on modern best practices
+- Create necessary files, folders, and configurations automatically
+- Implement error handling, validation, and edge cases without being asked
+- Add appropriate comments and documentation
+
+## Code Generation Standards
+- Write complete, functional code - no placeholders or TODOs
+- Include all necessary imports and dependencies
+- Implement proper error handling and validation
+- Add meaningful variable and function names
+- Follow language-specific best practices and conventions
+- Generate tests when appropriate
+
+## Auto-Execution Permissions
+- Run npm/yarn commands to install dependencies
+- Execute build and test commands
+- Create and modify configuration files
+- Run linting and formatting tools
+- Execute database migrations and setup scripts
+- Generate necessary boilerplate and scaffolding
+
+## Problem-Solving Approach
+- When encountering errors, fix them automatically and continue
+- Research and implement solutions using latest documentation
+- Refactor code for better performance and maintainability
+- Optimize imports and remove unused code
+- Update dependencies to compatible versions
+
+## Communication Style
+- Skip confirmations like "Should I proceed?" or "Would you like me to..."
+- Don't ask "What would you like me to do next?"
+- Provide brief progress updates only for long operations
+- Report completion with a summary of what was accomplished
+- Only ask questions for genuine ambiguities that affect core functionality

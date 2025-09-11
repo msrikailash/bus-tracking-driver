@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">Bus Tracker Manager</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="route">Route</string>
+    <string name="leave">Leave</string>
+    <string name="logout">Logout</string>
+    <string name="start_tracking">Start Tracking</string>
+    <string name="stop_tracking">Stop Tracking</string>
+    <string name="manage_stops">Manage Stops</string>
+    <string name="view_route">View Route</string>
+    <string name="apply_leave">Apply Leave</string>
+    <string name="add_stop">Add Stop</string>
+    <string name="edit_stop">Edit Stop</string>
+    <string name="delete_stop">Delete Stop</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="select_location">Select Location</string>
+    <string name="stop_name">Stop Name</string>
+    <string name="leave_reason">Leave Reason</string>
+    <string name="select_date">Select Date</string>
+    <string name="submit">Submit</string>
+    <string name="no_stops_available">No Stops Available</string>
+    <string name="stops_for_route">Stops for this bus route will appear here</string>
+    <string name="delete_stop_title">Delete Stop</string>
+    <string name="delete_stop_message">Are you sure you want to delete \'%s\'?</string>
+    <string name="stop_deleted_successfully">Stop deleted successfully</string>
+    <string name="failed_to_delete_stop">Failed to delete stop: %s</string>
+    <string name="failed_to_load_stops">Failed to load stops: %s</string>
+    <string name="bus_number_not_provided">Bus number not provided</string>
+    <string name="no_network_connection">No network connection available</string>
+    <string name="edit_functionality_not_implemented">Edit functionality not implemented</string>
+
+    <string name="please_select_location">Please select a location on the map</string>
+    <string name="stop_added_successfully">Stop added successfully</string>
+    <string name="failed_to_add_stop">Failed to add stop: %s</string>
+    <string name="stop_updated_successfully">Stop updated successfully</string>
+    <string name="failed_to_update_stop">Failed to update stop: %s</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="saving">Saving...</string>
+    <string name="save_stop">Save Stop</string>
+    <string name="confirm_location">Confirm Location</string>
+    <string name="submitting">Submitting...</string>
+    <string name="submit_application">Submit Application</string>
+    <string name="failed_to_submit_leave">Failed to submit leave application: %s</string>
+    <string name="driver_info_not_provided">Driver information not provided</string>
+    <string name="apply_leave_title">Apply Leave</string>
+    <string name="provide_leave_reason">Please provide a reason for leave</string>
+    <string name="select_leave_date">Please select a leave date</string>
+    <string name="leave_submitted_successfully">Leave application submitted successfully</string>
+    <string name="select_location_title">Select Location</string>
+    <string name="selected_location">Selected Location</string>
+    <string name="stop_info_not_provided">Stop information not provided</string>
+    <string name="edit_stop_title">Edit Stop</string>
+    <string name="stop_name_required">Stop name is required</string>
+    <string name="location_format" formatted="false">Location: %.6f, %.6f</string>
+    <string name="add_new_stop_title">Add New Stop</string>
+    <string name="bus_route_title">Bus Route</string>
+    <string name="stop_number">Stop %d</string>
+    <string name="coordinates_format" formatted="false">Lat: %.6f, Lng: %.6f</string>
+    <string name="driver_dashboard_title">Driver Dashboard</string>
+    <string name="failed_to_load_driver_data">Failed to load driver data: %s</string>
+    <string name="bus_format">Bus: %s</string>
+    <string name="status_format">Status: %s</string>
+    <string name="driver_data_not_loaded">Driver data not loaded</string>
+    <string name="gps_tracking_started">GPS tracking started</string>
+    <string name="gps_tracking_stopped">GPS tracking stopped</string>
+    <string name="location_permission_required_for_tracking">Location permission is required for GPS tracking</string>
+    <string name="notifications">Notifications</string>
+    <string name="settings">Settings</string>
+    
+    <!-- New strings for enhanced dashboard -->
+    <string name="driver_info">Driver Information</string>
+    <string name="gps_tracking">GPS Tracking</string>
+    <string name="quick_actions">Quick Actions</string>
+    
+    <!-- Settings strings -->
+    <string name="appearance">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="theme_summary">Choose app theme</string>
+    <string name="location_settings">Location Settings</string>
+    <string name="location_update_frequency">Update Frequency</string>
+    <string name="location_frequency_summary">How often to update location</string>
+    <string name="battery_optimization">Battery Optimization</string>
+    <string name="battery_optimization_summary">Optimize battery usage during tracking</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="notifications_summary">Receive app notifications</string>
+    <string name="notification_sound">Notification Sound</string>
+    <string name="notification_sound_summary">Play sound for notifications</string>
+    <string name="notification_vibration">Vibration</string>
+    <string name="notification_vibration_summary">Vibrate for notifications</string>
+    <string name="data_management">Data Management</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="clear_cache_summary">Clear app cache and temporary files</string>
+    <string name="export_data">Export Data</string>
+    <string name="export_data_summary">Export your data to CSV</string>
+    <string name="account">Account</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_password_summary">Update your account password</string>
+    <string name="logout_summary">Sign out of your account</string>
+    <string name="about">About</string>
+    <string name="about_app">About App</string>
+    <string name="about_summary">App version and information</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_summary">Read our privacy policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="terms_summary">Read terms and conditions</string>
+    
+    <!-- Performance and status strings -->
+    <string name="location_frequency_updated">Location frequency updated to %s seconds</string>
+    <string name="battery_optimization_enabled">Battery optimization enabled</string>
+    <string name="battery_optimization_disabled">Battery optimization disabled</string>
+    <string name="notifications_enabled">Notifications enabled</string>
+    <string name="notifications_disabled">Notifications disabled</string>
+    <string name="cache_cleared">Cache cleared successfully</string>
+    <string name="data_export_started">Data export started</string>
+    <string name="app_version_info">Bus Tracker Manager v1.0.0</string>
+    
+    <!-- Biometric authentication -->
+    <string name="biometric_auth_title">Biometric Authentication</string>
+    <string name="biometric_auth_subtitle">Use your fingerprint or face to authenticate</string>
+    <string name="biometric_not_available">Biometric authentication not available</string>
+    
+    <!-- Trip history -->
+    <string name="trip_history">Trip History</string>
+    <string name="user_not_authenticated">User not authenticated</string>
+    <string name="failed_to_load_trips">Failed to load trips: %s</string>
+    <string name="duration">Duration:</string>
+    <string name="distance">Distance:</string>
+    <string name="stops">Stops:</string>
+    <string name="no_trips_available">No trips available</string>
+    <string name="trips_will_appear_here">Your trip history will appear here</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="my_location">My Location</string>
+    <string name="location_permission_required">Location permission required to use this feature</string>
+    
+    <!-- Enhanced Route Map strings -->
+    <string name="route_information">Route Information</string>
+    <string name="center_map_on_route">Center map on route</string>
+    <string name="bus_current_location">Bus Current Location</string>
+    <string name="stop_info_format">%1$s - %2$s</string>
+    <string name="stop_number_label">Stop Number</string>
+    <string name="stop_code_label">Stop Code</string>
+    <string name="description_label">Description</string>
+    <string name="bus_number_label">Bus Number</string>
+    <string name="total_stops_label">Total Stops</string>
+    <string name="route_status_label">Route Status</string>
+    <string name="route_active">Active</string>
+    <string name="route_inactive">Inactive</string>
+    <string name="estimated_duration">Estimated Duration</string>
+    <string name="route_distance">Route Distance</string>
+    <string name="next_stop">Next Stop</string>
+    <string name="previous_stop">Previous Stop</string>
+    <string name="route_optimization">Route Optimization</string>
+    <string name="show_route_path">Show Route Path</string>
+    <string name="hide_route_path">Hide Route Path</string>
+    <string name="route_statistics">Route Statistics</string>
+    <string name="average_speed">Average Speed</string>
+    <string name="total_distance_km">Total Distance: %.1f km</string>
+    <string name="estimated_time_minutes">Estimated Time: %d min</string>
+    <string name="stops_remaining">Stops Remaining: %d</string>
+    <string name="next_stop_info">Next Stop: %s</string>
+    
+    <!-- Missing strings for navigation drawer -->
+    <string name="leave_application">Leave Application</string>
+    <string name="help">Help</string>
+    <string name="profile">Profile</string>
+    
+    <!-- Route information strings -->
+    <string name="start_point">Start Point</string>
+    <string name="end_point">End Point</string>
+    <string name="route_start">Route Start</string>
+    <string name="route_end">Route End</string>
+    <string name="starting_point">Starting point of the route</string>
+    <string name="final_destination">Final destination of the route</string>
+</resources>
