@@ -270,4 +270,3 @@ For support and questions:
 ---
 
 **Built with ❤️ for College Bus Management**
-
