@@ -6,6 +6,7 @@ public class Driver implements Serializable {
     private String driverId;
     private String name;
     private String busNo;
+    private String routeId;
     private double lat;
     private double lng;
     private String status;
@@ -25,6 +26,7 @@ public class Driver implements Serializable {
         this.status = "offline";
         this.lat = 0.0;
         this.lng = 0.0;
+        this.routeId = null;
     }
 
     // Getters and Setters
@@ -90,6 +92,14 @@ public class Driver implements Serializable {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public String getRouteId() {
+        return routeId;
+    }
+
+    public void setRouteId(String routeId) {
+        this.routeId = routeId;
     }
 }
 

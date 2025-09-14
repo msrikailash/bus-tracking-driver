@@ -26,6 +26,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BusTrakerManager">
 
+        <!-- Location Service -->
+        <service
+            android:name=".service.LocationService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="location" />
+
+        <!-- Location Update Receiver -->
+        <receiver
+            android:name=".receiver.LocationUpdateReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
         <!-- Foreground Location Service -->
         <service
             android:name=".services.LocationForegroundService"
@@ -70,6 +83,8 @@
         <activity android:name=".ui.DiagnosticsActivity" android:exported="false" />
         <activity android:name=".ui.TripHistoryActivity" android:exported="false" />
         <activity android:name=".ui.BusQRScannerActivity" android:exported="false" />
+        <activity android:name=".ui.LocationSharingActivity" android:exported="false" />
+        <activity android:name=".ui.LocationHistoryActivity" android:exported="false" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

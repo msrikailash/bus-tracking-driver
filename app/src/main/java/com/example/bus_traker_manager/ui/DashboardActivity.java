@@ -524,10 +524,27 @@ public class DashboardActivity extends AppCompatActivity {
     
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
+        int itemId = item.getItemId();
+        
+        if (itemId == android.R.id.home) {
             drawerLayout.openDrawer(navigationView);
             return true;
+        } else if (itemId == R.id.action_location_sharing) {
+            openLocationSharing();
+            return true;
+        } else if (itemId == R.id.action_notifications) {
+            openNotifications();
+            return true;
+        } else if (itemId == R.id.action_settings) {
+            openSettings();
+            return true;
         }
+        
         return super.onOptionsItemSelected(item);
+    }
+    
+    private void openLocationSharing() {
+        Intent intent = new Intent(this, LocationSharingActivity.class);
+        startActivity(intent);
     }
 }
